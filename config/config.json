@@ -1,0 +1,8 @@
+{
+    "production": {
+      "use_env_variable": "PG_URI"
+    },
+    "development": {
+        "use_env_variable": "PG_URI"
+    }
+}
