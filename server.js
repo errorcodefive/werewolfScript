@@ -5,6 +5,8 @@ var path = require('path');
 
 var app = express();
 
+require('dotenv').config();
+
 var port_number = process.env.PORT || 3000;
 
 console.log("using: " + __dirname+'/dist');

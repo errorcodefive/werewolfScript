@@ -1,1 +1,1 @@
-# werewolfScript
+# Werewolf Script
