@@ -1,0 +1,21 @@
+{
+  "name": "werewolfscript",
+  "version": "1.0.0",
+  "description": "Script for Ultimate Werewolf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.6.0",
+    "webpack": "^4.25.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4"
+  }
+}
