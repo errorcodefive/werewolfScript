@@ -1,0 +1,1 @@
+var contentNode = document.getElementById("main");
