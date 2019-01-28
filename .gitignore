@@ -2,3 +2,4 @@ werewolfScript.code-workspace
 node_modules
 .env
 db/config/config.js
+client/dist

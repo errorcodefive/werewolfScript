@@ -9,6 +9,7 @@ require('dotenv').config();
 
 var port_number = process.env.PORT || 3000;
 var dist_path = path.join(__dirname, 'client/dist');
+
 //Output all env-variables as a debugging tool
 console.log('PORT:' + port_number);
 console.log("Express using: " + dist_path);
