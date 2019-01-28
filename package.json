@@ -4,7 +4,8 @@
   "description": "Script for Ultimate Werewolf",
   "main": "index.js",
   "scripts": {
-    "test": "webpack-dev-server --port 8080 -d --open --mode development"
+    "test": "webpack-dev-server --port 8080 -d --open --mode development",
+    "heroku-postbuild": "webpack -p"
   },
   "author": "",
   "license": "ISC",
