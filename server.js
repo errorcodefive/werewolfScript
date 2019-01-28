@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 //Send all other GET requests to the homepage
 app.get('*',  (req,res)=>{
-    res.sendFile(path.join(__dirname, 'dist/index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 module.exports= app.listen(port_number, function(){
